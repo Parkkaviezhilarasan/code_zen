@@ -4,7 +4,7 @@ tasks = []
 
 def show_tasks():
     if not tasks:
-        print("\nNo tasks available.")
+        pi("\nNo tasks available.")
     else:
         print("\nTo-Do List:")
         for i, task in enumerate(tasks, 1):
